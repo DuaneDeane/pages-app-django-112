@@ -1,3 +1,9 @@
-<h1>Home base!</h1>
-
+{% extends 'pages/base.html' %}
 {% load static %}
+{% block content %}
+
+<h1>Welcome to my World!</h1>
+<img src="{% static 'pages/Sylvanus.jpg' %}" alt="Horde Leader">
+
+
+{% endblock content %}
